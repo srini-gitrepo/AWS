@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIA3OIRPQFVMFSQHSOF"
-  secret_key = "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"
+  access_key = "access key will go here"
+  secret_key = "access secret key will go here"
 }
 
 resource "aws_instance" "my-first-terraform-server" {
