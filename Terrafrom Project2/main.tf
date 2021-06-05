@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIA3OIRPQFVMFSQHSOF"
-  secret_key = "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"
+  access_key = "access key will go here"
+  secret_key = "access secret key will go here"
 }
 
 #1 create a vpc
@@ -129,7 +129,7 @@ output "server_public_ip" {
 #9 create an ubuntu server and install/enable apache2
 
 resource "aws_instance" "my-web-server" {
-  ami = "ami-0747bdcabd34c712a"
+  ami = "ami-09e67e426f25ce0d7"
   instance_type = "t2.micro"
   availability_zone = "us-east-1a"
   key_name = "main.key"
